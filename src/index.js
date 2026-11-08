@@ -50,11 +50,6 @@ export const renderMath = {
     characters.forEach(char => {
       sqrt.append(char)
     })
-    sqrt.style = `
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    `
     return sqrt;
   }
 }
