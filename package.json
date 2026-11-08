@@ -1,6 +1,6 @@
 {
   "name": "@fawzy-blue2/mathix-dom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple javascript library easily generates and structure Mathematical formulas in MathML elements in HTML DOM",
   "main": "./dist/mathix-dom.umd.cjs",
   "module": "./dist/mathix-dom.js",

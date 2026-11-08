@@ -1,5 +1,3 @@
-import render from "./render.js";
-
 export function supportMathFont() {
   let style = document.createElement("style")
   style.textContent = `
