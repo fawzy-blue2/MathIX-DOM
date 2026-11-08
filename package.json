@@ -2,6 +2,17 @@
   "name": "mathix-dom",
   "version": "1.0.0",
   "description": "simple javascript library easily generates and structure Mathematical formulas in MathML elements in HTML DOM",
+  "main": "./dist/mathix-dom.umd.cjs",
+  "module": "./dist/mathix-dom.js",
+  "exports": {
+    ".": {
+      "import": "./dist/mathix-dom.js",
+      "require": "./dist/mathix-dom.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "mathml",
     "math",
@@ -12,8 +23,11 @@
   "license": "ISC",
   "author": "fawzy-blue2",
   "type": "module",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
   }
 }
